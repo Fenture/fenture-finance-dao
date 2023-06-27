@@ -1,0 +1,9 @@
+[package]
+name = 'Fenture_Finance_dao'
+version = '1.0.0'
+
+[dependencies]
+AptosFramework = { git = "https://github.com/aptos-labs/aptos-core.git", subdir = "aptos-move/framework/aptos-framework/", rev = "mainnet" }
+
+[addresses]
+ffd_admin="0x8af11472a0a021ba325f33dd8686fadd8b27bec7194448eb8c021a3054ae5283"
